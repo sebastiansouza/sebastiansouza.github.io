@@ -52,6 +52,7 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#certificado" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Certificados</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Serviços</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contato</span></a></li>
         </ul>
@@ -75,7 +76,7 @@
 
         <div class="section-title">
           <h2>Sobre mim</h2>
-          <p>Olá! Sou Sebastian Souza, um entusiasta de tecnologia e apaixonado pela computação em nuvem. Estou prestes a obter minha certificação AWS Cloud Practitioner. Explore meu portfólio e descubra mais sobre meu trabalho. Obrigado pela visita!</p>
+          <p>Olá! Sou Sebastian Souza, um entusiasta de tecnologia e apaixonado pela computação em nuvem. <b>Certificado AWS Cloud Practitioner </b> me preparando para Solutions Architect - Associate. Explore meu portfólio e descubra mais sobre meu trabalho. Obrigado pela visita!</p>
         </div>
 
         <div class="row">
@@ -261,73 +262,117 @@
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+    <!-- End Resume Section -->
+   
 
     <!-- ======= Portfolio Section ======= -->
-     <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container">
-
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Alguns dos meus projetos desenvolvidos, estou sempre em busca de novos desafios e caso tenha alguma duvida, fique a vontade para entrar em contato.</p>
+          <p>Alguns dos meus projetos desenvolvidos, estou sempre em busca de novos desafios e caso tenha alguma dúvida, fique à vontade para entrar em contato.</p>
         </div>
-
-        <!-- <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div> -->
-
-         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <!-- Primeiro item -->
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.gif" class="img-fluid" alt="">
-              <div class="portfolio-links">                
+              <img src="assets/img/portfolio/portfolio-1.gif" class="img-fluid portfolio-img" alt="">
+              <div class="portfolio-links">
                 <a href="https://github.com/sebastiansouza/FunctionLambdaAWS_billing" title="Mais detalhes"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-1.gif" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               </div>
               <h4 class="title"><a href="">Monitor de Alerta de Cobrança AWS</a></h4>
               <p>Este projeto implementa um sistema de monitoramento de alerta de cobrança na AWS usando CloudWatch Events, AWS Lambda e Amazon SNS. Clique aqui e entenda melhor o projeto..</p>
             </div>
-          </div> 
-
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-2.gif" class="img-fluid" alt="">
-                <div class="portfolio-links">                
-                  <a href="https://github.com/sebastiansouza/staticWebsites3" title="Mais detalhes"><i class="bx bx-link"></i></a>
-                  <a href="assets/img/portfolio/portfolio-2.gif" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-                <h4 class="title"><a href="">Hospedagem de um site.</a></h4>
-                <p>Este projeto consiste na criação de um site estático hospedado na AWS utilizando CloudFront, Amazon S3 e Route 53. A implantação do site em um bucket do Amazon S3 é combinada com a configuração de uma distribuição CloudFront para oferecer conteúdo globalmente, enquanto o Route 53 gerencia o roteamento de DNS para um domínio personalizado. Clique aqui e entenda melhor o projeto..
-                </p>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <!-- Segundo item -->
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.gif" class="img-fluid portfolio-img" alt="">
+              <div class="portfolio-links">
+                <a href="https://github.com/sebastiansouza/staticWebsites3" title="Mais detalhes"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-2.gif" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               </div>
-            </div> 
-            <!--  -->
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <img src="assets/img/portfolio/portfolio-3.gif" class="img-fluid" alt="">
-                  <div class="portfolio-links">                
-                    <a href="https://github.com/sebastiansouza/quicksightAmazon" title="Mais detalhes"><i class="bx bx-link"></i></a>
-                  </div>
-                  <h4 class="title"><a href="">Usando o Amazon QuickSight para visualizar dados</a></h4>
-                  <p>Este projeto utiliza o Amazon QuickSight para analisar dados dos produtos mais vendidos na Amazon.com em 2021. Com mais de 50 mil registros armazenados no Amazon S3. Clique aqui e entenda melhor o projeto..
-                  </p>
-                </div>
+              <h4 class="title"><a href="">Hospedagem de um site.</a></h4>
+              <p>Este projeto consiste na criação de um site estático hospedado na AWS utilizando CloudFront, Amazon S3 e Route 53. A implantação do site em um bucket do Amazon S3 é combinada com a configuração de uma distribuição CloudFront para oferecer conteúdo globalmente, enquanto o Route 53 gerencia o roteamento de DNS para um domínio personalizado. Clique aqui e entenda melhor o projeto..
+              </p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <!-- Terceiro item -->
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.gif" class="img-fluid portfolio-img" alt="">
+              <div class="portfolio-links">
+                <a href="https://github.com/sebastiansouza/quicksightAmazon" title="Mais detalhes"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-3.gif" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
               </div>
-
-
-        </div> 
-
+              <h4 class="title"><a href="">Usando o Amazon QuickSight para visualizar dados</a></h4>
+              <p>Este projeto utiliza o Amazon QuickSight para analisar dados dos produtos mais vendidos na Amazon.com em 2021. Com mais de 50 mil registros armazenados no Amazon S3. Clique aqui e entenda melhor o projeto..
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    
     <!-- End Portfolio Section -->
+<!-- ======= Certificated Section ======= -->
+<section id="certificado" class="portfolio section-bg">
+  <div class="container">
+    <div class="section-title">
+      <h2>Certificados</h2>
+      <p>Algumas das principais certificações que conquistei.</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <!-- Primeiro certificado -->
+        <div class="certificado-wrap portfolio-wrap">
+          <img src="assets/img/certificado/certificado-1.png" class="img-fluid certificado-img" alt="">
+          <div class="portfolio-links">                
+            <a href="https://www.credly.com/badges/4aab1cfe-be88-4db7-9607-f5543cffb44a/linked_in?t=s9tq3q" title="Mais detalhes"><i class="bx bx-link"></i></a>
+            <a href="assets/img/certificado/certificado-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a> 
+          </div>
+          <h4 class="title"><a href="">AWS Certified Cloud Practitioner - Foundational</a></h4>
+          <p>Essa certificação demonstra meu compromisso em manter-me atualizado com as últimas tecnologias e capacita-me a projetar e implementar soluções inovadoras na nuvem, contribuindo para o sucesso de projetos futuros e o avanço da minha carreira na área de TI..</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <!-- Segundo certificado -->
+        <div class="certificado-wrap portfolio-wrap">
+          <img src="assets/img/certificado/certificado-2.jpg" class="img-fluid certificado-img" alt="">
+          <div class="portfolio-links">                
+            <a href="https://www.udemy.com/certificate/UC-9ad6898d-7b24-4e9c-9ca9-408ace55ec6a/" title="Mais detalhes"><i class="bx bx-link"></i></a>
+            <a href="assets/img/certificado/certificado-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a> 
+          </div>
+          <h4 class="title"><a href="">Python do Zero ao Avançado + Projetos Reais</a></h4>
+          <p>Essa certificação em Python valida minha competência fundamental e amplia minhas oportunidades de aplicação prática desses conhecimentos.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <!-- Terceiro certificado -->
+        <div class="certificado-wrap portfolio-wrap">
+          <img src="assets/img/certificado/certificado-3.png" class="img-fluid certificado-img" alt="">
+          <div class="portfolio-links">                
+            <a href="" title="Mais detalhes"><i class="bx bx-link"></i></a>
+            <a href="assets/img/certificado/certificado-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a> 
+          </div>
+          <h4 class="title"><a href="">AWS re/Start Graduate </a></h4>
+          <p>Com enfoque prático em serviços da AWS, desenvolvi competências essenciais em computação em nuvem, preparando-me para desafios reais. Esta experiência é um trampolim para minha carreira, oferecendo oportunidades significativas de aplicação prática e crescimento profissional. Com mais de 100hras de laboratórios práticos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= End Certificated Section ======= -->
+
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">

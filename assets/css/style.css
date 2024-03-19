@@ -574,6 +574,24 @@ section {
   z-index: 1;
 }
 
+.certificado-img {
+  width: 180px;
+  height: 180px;
+}
+.certificado-wrap{
+  text-align: left;
+}
+.certificado-wrap .certificado-img {
+  display: block; /* Garante que a imagem seja exibida como um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.portfolio-img {
+  width: 315px;
+  height: 158px;
+}
+
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
