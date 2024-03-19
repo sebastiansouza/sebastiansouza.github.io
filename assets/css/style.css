@@ -575,20 +575,25 @@ section {
 }
 
 .certificado-img {
-  width: 180px;
-  height: 180px;
+  max-width: 180px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+
 }
 .certificado-wrap{
   text-align: left;
 }
 .certificado-wrap .certificado-img {
-  display: block; /* Garante que a imagem seja exibida como um bloco */
-  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  display: block; 
+  margin: 0 auto; 
 }
 
 .portfolio-img {
-  width: 315px;
-  height: 158px;
+  max-width: 315px;
+  max-height: 158px;
+  width: auto;
+  height: auto;
 }
 
 
